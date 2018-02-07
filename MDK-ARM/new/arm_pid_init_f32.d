@@ -1,0 +1,10 @@
+new\arm_pid_init_f32.o: arm_pid_init_f32.c
+new\arm_pid_init_f32.o: ../Drivers/CMSIS/Include/arm_math.h
+new\arm_pid_init_f32.o: ../Drivers/CMSIS/Include/core_cm4.h
+new\arm_pid_init_f32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+new\arm_pid_init_f32.o: ../Drivers/CMSIS/Include/core_cmInstr.h
+new\arm_pid_init_f32.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+new\arm_pid_init_f32.o: ../Drivers/CMSIS/Include/core_cmFunc.h
+new\arm_pid_init_f32.o: ../Drivers/CMSIS/Include/core_cmSimd.h
+new\arm_pid_init_f32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+new\arm_pid_init_f32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"new\stm32f4xx_hal_uart.o"
+"new\stm32f4xx_hal.o"
+"new\stm32f4xx_hal_adc_ex.o"
+"new\stm32f4xx_hal_dma.o"
+"new\stm32f4xx_hal_adc.o"
+"new\stm32f4xx_hal_flash_ex.o"
+"new\stm32f4xx_hal_rcc.o"
+"new\stm32f4xx_hal_rcc_ex.o"
+"new\stm32f4xx_hal_flash_ramfunc.o"
+"new\stm32f4xx_hal_pwr_ex.o"
+"new\stm32f4xx_hal_pwr.o"
+"new\stm32f4xx_hal_tim_ex.o"
+"new\stm32f4xx_hal_cortex.o"
+"new\stm32f4xx_hal_flash.o"
+"new\stm32f4xx_hal_tim.o"
+"new\stm32f4xx_hal_dma_ex.o"
+"new\stm32f4xx_hal_gpio.o"
+"new\system_stm32f4xx.o"
+"new\arm_pid_init_f32.o"
+"new\stm32f4xx_it.o"
+"new\stm32f4xx_hal_msp.o"
+"new\main.o"
+"new\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "new\new.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "new.map" -o new\new.axf
